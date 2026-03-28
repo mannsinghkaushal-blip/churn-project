@@ -4,8 +4,8 @@ import pandas as pd
 import requests
 
 # Load model and columns
-model = joblib.load(r"C:\Users\manns\OneDrive\Desktop\Project\model\churn_model.pkl")
-columns = joblib.load(r"C:\Users\manns\OneDrive\Desktop\Project\model\model_columns.pkl")
+model = joblib.load("\model\churn_model.pkl")
+columns = joblib.load(r"\model\model_columns.pkl")
 
 st.title("Customer Churn Prediction")
 
